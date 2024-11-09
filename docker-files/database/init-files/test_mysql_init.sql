@@ -1,10 +1,8 @@
 -- 作成
-CREATE DATABASE ;
-USE ;
-CREATE TABLE ;
+CREATE DATABASE auction;
+\c auction
 
 -- テストデータ生成
-INSERT INTO () ;
 CREATE TABLE "auctions" (
 	"auction_id" UUID NOT NULL UNIQUE,
 	"created_at" TIMESTAMP NOT NULL,
